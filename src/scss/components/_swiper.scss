@@ -1,0 +1,33 @@
+.swiper {
+  &-slide {
+    border-radius: 20px;
+    background: rgba(76, 0, 112, 0.2);
+    padding: 50px 40px 40px 50px;
+
+    &__title {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+      margin-bottom: 30px;
+    }
+    &__content {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    &__content-info {
+      &__title {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+      }
+      &__text {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+  }
+}

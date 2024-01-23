@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Gulp Starter Project my LemonSchool</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="./css/main.css" />
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+	<div class="container">
+		<div class="header__logo">
+			<img src="./img/Logo.svg" alt="logo">
+			
+				<a class="header__logo_a" href="/">Course topics</a>
+				<a class="header__logo_a" href="/">What students say</a>
+			
+		</div>
+		<div class="header__nav">
+			<div class="header__backdrop" id="headerBackdrop" onclick="navToggle()"></div>
+			
+			<ul class="header__ul" id="headerUl">
+				<li class="header__li"><a class="header__logo_a" href="/">Sign in</a></li>
+				<button class="btn header__btn">Get started</button>
+				<span class="material-icons icon-close" onclick="navToggle()">close</span>
+			</ul>
+			<span class="material-icons icon-menu" onclick="navToggle()">menu</span>
+		</div>
+	</div>
+</header>
+
+		<div class="welcome">
+    
+        <div class="welcome__info">
+            <h1 class="welcome__info-title">
+                Learn no-code tools today.
+            </h1>
+            <span class="welcome__info-bg"></span>
+            <p class="welcome__info-decs">
+                Create beautiful webflow sites with flowbase. Clone for
+                free and get started building a site today.
+            </p>
+            <button class="btn welcome__btn">Get started</button>
+
+            <div class="welcome__info-stats">
+                <div class="welcome__info-icon">
+                    <img src="./img/mans.svg" alt="">
+                </div>
+                <p class="welcome__info-text">Join over <span>4,000+</span> students</p>
+            </div>
+        </div>
+    
+        <div class="welcome__img">
+            <span class="welcome__img__back">
+                <img class="welcome__img__play" src="./img/Play.svg" alt="play">
+            </span>
+            
+        </div>
+    
+
+</div>
+		<section class="stats">
+    <div class="container">
+        <div class="statistic">
+            <div class="statistic-item">
+                <div class="statistic-item__amount">12,201</div>
+                <div class="statistic-item__desc">happy students</div>
+            </div>
+            <div class="statistic-item">
+                <div class="statistic-item__amount">3,291</div>
+                <div class="statistic-item__desc">lectures</div>
+            </div>
+            <div class="statistic-item">
+                <div class="statistic-item__amount">1,291</div>
+                <div class="statistic-item__desc">5 star reviews</div>
+            </div>
+        </div>
+    </div>
+</section>
+		<section class="plan">
+    <div class="container plan-container">
+        <h3 class="h3-title">What you’ll learn</h3>
+        <p class="plan-text"> Create beautiful webflow sites with flowbase. Clone for
+            free and get started building a site today.</p>
+
+        <div class="plan__list">
+            <div class="plan__list-item">
+                <div class="plan__list-item-img">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none">
+                        <g filter="url(#filter0_d_5651_4)">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M48 72C65.6731 72 80 57.6731 80 40C80 22.3269 65.6731 8 48 8C30.3269 8 16 22.3269 16 40C16 57.6731 30.3269 72 48 72Z" fill="white"/>
+                        </g>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M56.6667 52.9769C55.1982 55.3064 51.8018 55.3064 50.3333 52.9769L42.6186 40.7399C41.0471 38.2471 42.8385 35 45.7854 35H61.2146C64.1615 35 65.9529 38.2471 64.3814 40.7399L56.6667 52.9769Z" fill="url(#paint0_linear_5651_4)"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M39.3333 30.0231C40.8018 27.6936 44.1982 27.6936 45.6667 30.0231L53.3814 42.2601C54.9529 44.7529 53.1615 48 50.2146 48H34.7854C31.8385 48 30.0471 44.7529 31.6186 42.2601L39.3333 30.0231Z" fill="url(#paint1_linear_5651_4)"/>
+                        <defs>
+                          <filter id="filter0_d_5651_4" x="0" y="0" width="96" height="96" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                            <feOffset dy="8"/>
+                            <feGaussianBlur stdDeviation="8"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0535402 0"/>
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5651_4"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5651_4" result="shape"/>
+                          </filter>
+                          <linearGradient id="paint0_linear_5651_4" x1="52.9912" y1="30.0449" x2="42.3544" y2="48.7008" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#FFD7A9"/>
+                            <stop offset="1" stop-color="#FFAE70"/>
+                          </linearGradient>
+                          <linearGradient id="paint1_linear_5651_4" x1="44.3521" y1="53.4372" x2="59.4268" y2="33.8284" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#CD10FF"/>
+                            <stop offset="1" stop-color="#9F06FF"/>
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                <div class="plan__list-item__info">
+                    <h4 class="h4-text">Analyzing User Data</h4>
+                    <p class="plan__list-item__info_desc">
+                        Who are you developing for? How will they use
+                         your design? Building user personas can answer these.
+                    </p>
+                </div>
+                </div>
+                <div class="plan__list-item__time">
+                    <p class="plan__list-item__time-clock">6 videos</p>
+                    <p class="plan__list-item__time-clock1">4.5 hours</p>
+                </div>
+            </div>
+            <div class="plan__list-item">
+                <div class="plan__list-item-img">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none">
+                        <g filter="url(#filter0_d_5651_4)">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M48 72C65.6731 72 80 57.6731 80 40C80 22.3269 65.6731 8 48 8C30.3269 8 16 22.3269 16 40C16 57.6731 30.3269 72 48 72Z" fill="white"/>
+                        </g>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M56.6667 52.9769C55.1982 55.3064 51.8018 55.3064 50.3333 52.9769L42.6186 40.7399C41.0471 38.2471 42.8385 35 45.7854 35H61.2146C64.1615 35 65.9529 38.2471 64.3814 40.7399L56.6667 52.9769Z" fill="url(#paint0_linear_5651_4)"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M39.3333 30.0231C40.8018 27.6936 44.1982 27.6936 45.6667 30.0231L53.3814 42.2601C54.9529 44.7529 53.1615 48 50.2146 48H34.7854C31.8385 48 30.0471 44.7529 31.6186 42.2601L39.3333 30.0231Z" fill="url(#paint1_linear_5651_4)"/>
+                        <defs>
+                          <filter id="filter0_d_5651_4" x="0" y="0" width="96" height="96" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                            <feOffset dy="8"/>
+                            <feGaussianBlur stdDeviation="8"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0535402 0"/>
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5651_4"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5651_4" result="shape"/>
+                          </filter>
+                          <linearGradient id="paint0_linear_5651_4" x1="52.9912" y1="30.0449" x2="42.3544" y2="48.7008" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#FFD7A9"/>
+                            <stop offset="1" stop-color="#FFAE70"/>
+                          </linearGradient>
+                          <linearGradient id="paint1_linear_5651_4" x1="44.3521" y1="53.4372" x2="59.4268" y2="33.8284" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#CD10FF"/>
+                            <stop offset="1" stop-color="#9F06FF"/>
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                <div class="plan__list-item__info">
+                    <h4 class="h4-text">User Persona</h4>
+                    <p class="plan__list-item__info_desc">
+                        Who are you developing for? How will they use
+                         your design? Building user personas can answer these.
+                    </p>
+                </div>
+                </div>
+                <div class="plan__list-item__time">
+                    <p class="plan__list-item__time-clock">6 videos</p>
+                    <p class="plan__list-item__time-clock1">4.5 hours</p>
+                </div>
+            </div>
+            <div class="plan__list-item">
+                <div class="plan__list-item-img">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none">
+                        <g filter="url(#filter0_d_5651_4)">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M48 72C65.6731 72 80 57.6731 80 40C80 22.3269 65.6731 8 48 8C30.3269 8 16 22.3269 16 40C16 57.6731 30.3269 72 48 72Z" fill="white"/>
+                        </g>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M56.6667 52.9769C55.1982 55.3064 51.8018 55.3064 50.3333 52.9769L42.6186 40.7399C41.0471 38.2471 42.8385 35 45.7854 35H61.2146C64.1615 35 65.9529 38.2471 64.3814 40.7399L56.6667 52.9769Z" fill="url(#paint0_linear_5651_4)"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M39.3333 30.0231C40.8018 27.6936 44.1982 27.6936 45.6667 30.0231L53.3814 42.2601C54.9529 44.7529 53.1615 48 50.2146 48H34.7854C31.8385 48 30.0471 44.7529 31.6186 42.2601L39.3333 30.0231Z" fill="url(#paint1_linear_5651_4)"/>
+                        <defs>
+                          <filter id="filter0_d_5651_4" x="0" y="0" width="96" height="96" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                            <feOffset dy="8"/>
+                            <feGaussianBlur stdDeviation="8"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0535402 0"/>
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5651_4"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5651_4" result="shape"/>
+                          </filter>
+                          <linearGradient id="paint0_linear_5651_4" x1="52.9912" y1="30.0449" x2="42.3544" y2="48.7008" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#FFD7A9"/>
+                            <stop offset="1" stop-color="#FFAE70"/>
+                          </linearGradient>
+                          <linearGradient id="paint1_linear_5651_4" x1="44.3521" y1="53.4372" x2="59.4268" y2="33.8284" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#CD10FF"/>
+                            <stop offset="1" stop-color="#9F06FF"/>
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                <div class="plan__list-item__info">
+                    <h4 class="h4-text">Prototyping</h4>
+                    <p class="plan__list-item__info_desc">
+                        Who are you developing for? How will they use
+                         your design? Building user personas can answer these.
+                    </p>
+                </div>
+                </div>
+                <div class="plan__list-item__time">
+                    <p class="plan__list-item__time-clock">6 videos</p>
+                    <p class="plan__list-item__time-clock1">4.5 hours</p>
+                </div>
+            </div>
+            <div class="plan__list-item">
+                <div class="plan__list-item-img">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none">
+                        <g filter="url(#filter0_d_5651_4)">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M48 72C65.6731 72 80 57.6731 80 40C80 22.3269 65.6731 8 48 8C30.3269 8 16 22.3269 16 40C16 57.6731 30.3269 72 48 72Z" fill="white"/>
+                        </g>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M56.6667 52.9769C55.1982 55.3064 51.8018 55.3064 50.3333 52.9769L42.6186 40.7399C41.0471 38.2471 42.8385 35 45.7854 35H61.2146C64.1615 35 65.9529 38.2471 64.3814 40.7399L56.6667 52.9769Z" fill="url(#paint0_linear_5651_4)"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M39.3333 30.0231C40.8018 27.6936 44.1982 27.6936 45.6667 30.0231L53.3814 42.2601C54.9529 44.7529 53.1615 48 50.2146 48H34.7854C31.8385 48 30.0471 44.7529 31.6186 42.2601L39.3333 30.0231Z" fill="url(#paint1_linear_5651_4)"/>
+                        <defs>
+                          <filter id="filter0_d_5651_4" x="0" y="0" width="96" height="96" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                            <feOffset dy="8"/>
+                            <feGaussianBlur stdDeviation="8"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0535402 0"/>
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5651_4"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5651_4" result="shape"/>
+                          </filter>
+                          <linearGradient id="paint0_linear_5651_4" x1="52.9912" y1="30.0449" x2="42.3544" y2="48.7008" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#FFD7A9"/>
+                            <stop offset="1" stop-color="#FFAE70"/>
+                          </linearGradient>
+                          <linearGradient id="paint1_linear_5651_4" x1="44.3521" y1="53.4372" x2="59.4268" y2="33.8284" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#CD10FF"/>
+                            <stop offset="1" stop-color="#9F06FF"/>
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                <div class="plan__list-item__info">
+                    <h4 class="h4-text">Storyboarding</h4>
+                    <p class="plan__list-item__info_desc">
+                        Who are you developing for? How will they use
+                         your design? Building user personas can answer these.
+                    </p>
+                </div>
+                </div>
+                <div class="plan__list-item__time">
+                    <p class="plan__list-item__time-clock">6 videos</p>
+                    <p class="plan__list-item__time-clock1">4.5 hours</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+		<div class="container">
+    <section class="lector">
+        <div class="lector-info">
+            <h3 class="lector-info__title">
+                Hi, I am David, your course instructor.
+            </h3>
+            <p class="lector-info__desc">
+                Create beautiful webflow sites with flowbase. Clone for
+                free and get started building a site today.
+            </p>
+        </div>
+        <div class="lector-img">
+            <div class="lector-img__container">
+                <img src="./img/man.png" alt="lecrotor-img">
+            </div>
+            
+        </div>
+    </section>
+</div>
+		<section class="rewiews">
+  <div class="rewiews-info">
+    <h3 class="rewiews-info__title">What my students say</h3>
+    <p class="rewiews-info__desc">
+      Create custom landing pages with Shades that convert more visitors than
+      any website—no coding required.
+    </p>
+
+    <style>
+    .swiper {
+      width: 600px;
+      height: 330px;
+      cursor: pointer;
+}
+</style>
+
+
+<!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <p class="swiper-slide__title">“I waited to completely finish the course to rate it. 
+          This was my first approach to python, i am an excel and VBA user. 
+          The professor has an excellent way to explain it and a lot or order and organization. 
+          I really recommend it.”</p>
+          <div class="swiper-slide__content">
+            <img src="./img/henk.svg" alt="man">
+            <div class="swiper-slide__content-info">
+              <p class="swiper-slide__content-info__title">Henk Fortuin</p>
+              <p class="swiper-slide__content-info__text">Founder of Crips</p>
+            </div>
+          </div>
+      </div>
+      <div class="swiper-slide">
+        <p class="swiper-slide__title">“I waited to completely finish the course to rate it. 
+          This was my first approach to python, i am an excel and VBA user. 
+          The professor has an excellent way to explain it and a lot or order and organization. 
+          I really recommend it.”</p>
+          <div class="swiper-slide__content">
+            <img src="./img/opi.svg" alt="man">
+            <div class="swiper-slide__content-info">
+              <p class="swiper-slide__content-info__title">Opi Watihana</p>
+              <p class="swiper-slide__content-info__text">Founder of Crips</p>
+            </div>
+          </div>
+      </div>
+      <div class="swiper-slide">
+        <p class="swiper-slide__title">“I waited to completely finish the course to rate it. 
+          This was my first approach to python, i am an excel and VBA user. 
+          The professor has an excellent way to explain it and a lot or order and organization. 
+          I really recommend it.”</p>
+          <div class="swiper-slide__content">
+            <img src="./img/ann.svg" alt="man">
+            <div class="swiper-slide__content-info">
+              <p class="swiper-slide__content-info__title">Annie Reyes</p>
+              <p class="swiper-slide__content-info__text">Founder of Crips</p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+		<section class="faq">
+    <h3 class="h3-title">Frequently asked questions</h3>
+  <section class="accordion faq__accordion">
+    <div class="accordion__container">
+      <div class="accordion__item">
+        <header class="accordion__header">
+          <h3 class="accordion__title">
+            Will I get full access to the course after purchasing?
+          </h3>
+          <i class="accordion__icon">
+            <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.41 0.839844L6 5.41984L10.59 0.839844L12 2.24984L6 8.24984L0 2.24984L1.41 0.839844Z" fill="url(#paint0_linear_0_166)"/>
+                <defs>
+                <linearGradient id="paint0_linear_0_166" x1="6.76637" y1="10.0016" x2="11.1957" y2="2.60162" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#CD10FF"/>
+                <stop offset="1" stop-color="#9F06FF"/>
+                </linearGradient>
+                </defs>
+                </svg>
+                
+          </i>
+        </header>
+
+        <div class="accordion__content">
+          <p class="accordion__description">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+            terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+            skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+            single-origin coffee nulla assumenda shoreditch et. Nihil anim
+            keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+            sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+            occaecat craft beer farm-to-table, raw denim aesthetic synth
+            nesciunt you probably haven't heard of them accusamus labore
+            sustainable VHS.
+          </p>
+        </div>
+      </div>
+      <div class="accordion__item">
+        <header class="accordion__header">
+          <h3 class="accordion__title">
+            Will I get full access to the course after purchasing?
+          </h3>
+          <i class="accordion__icon">
+            <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.41 0.839844L6 5.41984L10.59 0.839844L12 2.24984L6 8.24984L0 2.24984L1.41 0.839844Z" fill="url(#paint0_linear_0_166)"/>
+                <defs>
+                <linearGradient id="paint0_linear_0_166" x1="6.76637" y1="10.0016" x2="11.1957" y2="2.60162" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#CD10FF"/>
+                <stop offset="1" stop-color="#9F06FF"/>
+                </linearGradient>
+                </defs>
+                </svg>
+                
+          </i>
+        </header>
+
+        <div class="accordion__content">
+          <p class="accordion__description">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+            terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+            skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+            single-origin coffee nulla assumenda shoreditch et. Nihil anim
+            keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+            sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+            occaecat craft beer farm-to-table, raw denim aesthetic synth
+            nesciunt you probably haven't heard of them accusamus labore
+            sustainable VHS.
+          </p>
+        </div>
+      </div>
+      <div class="accordion__item">
+        <header class="accordion__header">
+          <h3 class="accordion__title">
+            Will I get full access to the course after purchasing?
+          </h3>
+          <i class="accordion__icon">
+            <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.41 0.839844L6 5.41984L10.59 0.839844L12 2.24984L6 8.24984L0 2.24984L1.41 0.839844Z" fill="url(#paint0_linear_0_166)"/>
+                <defs>
+                <linearGradient id="paint0_linear_0_166" x1="6.76637" y1="10.0016" x2="11.1957" y2="2.60162" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#CD10FF"/>
+                <stop offset="1" stop-color="#9F06FF"/>
+                </linearGradient>
+                </defs>
+                </svg>
+                
+          </i>
+        </header>
+
+        <div class="accordion__content">
+          <p class="accordion__description">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+            terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+            skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+            single-origin coffee nulla assumenda shoreditch et. Nihil anim
+            keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+            sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+            occaecat craft beer farm-to-table, raw denim aesthetic synth
+            nesciunt you probably haven't heard of them accusamus labore
+            sustainable VHS.
+          </p>
+        </div>
+      </div>
+      <div class="accordion__item">
+        <header class="accordion__header">
+          <h3 class="accordion__title">
+            Will I get full access to the course after purchasing?
+          </h3>
+          <i class="accordion__icon">
+            <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.41 0.839844L6 5.41984L10.59 0.839844L12 2.24984L6 8.24984L0 2.24984L1.41 0.839844Z" fill="url(#paint0_linear_0_166)"/>
+                <defs>
+                <linearGradient id="paint0_linear_0_166" x1="6.76637" y1="10.0016" x2="11.1957" y2="2.60162" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#CD10FF"/>
+                <stop offset="1" stop-color="#9F06FF"/>
+                </linearGradient>
+                </defs>
+                </svg>
+                
+          </i>
+        </header>
+
+        <div class="accordion__content">
+          <p class="accordion__description">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+            terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+            skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+            single-origin coffee nulla assumenda shoreditch et. Nihil anim
+            keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+            sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+            occaecat craft beer farm-to-table, raw denim aesthetic synth
+            nesciunt you probably haven't heard of them accusamus labore
+            sustainable VHS.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+		<section class="get-started">
+    <div class="container get-started__container">
+        <div class="get-started__time_con">
+            <span class="get-started__time">Get 30 Days Money Back Guarantee</span>
+        </div>
+        <h3 class="h3-title">Ready to learn UX Design from the expert?</h3>
+        <button class="btn start__btn">Get started</button>
+    </div>
+</section>
+
+		<footer class="footer">
+	<div class="container footer__conatiner">
+		<div class="footer__info">
+			<a href="/">
+				<img src="./img/Logo2.svg" alt="footer-logo">
+			</a>
+
+
+			<form class="footer__form">
+				<label htmlFor="">
+				  <div class="input-container">
+					<input
+					  class="footer__input"
+					  type="email"
+					  name=""
+					  id=""
+					  placeholder="Stay in the loop  - sign up with your email"
+					/>
+					<button class="btn footer__btn">
+					
+					Subscribe
+				  </button>
+				  </div>
+				  
+				</label>
+			  </form>
+
+
+		</div>
+
+
+		<div class="footer__link">
+			<div class="links__colm1">
+				<a class="links__colm-link" href="/"><span class="span">Help Menu</span></a>
+				<a class="links__colm-link" href="/">About</a>
+				<a class="links__colm-link" href="/">Features</a>
+				<a class="links__colm-link" href="/">Works</a>
+				<a class="links__colm-link" href="/">Career</a>
+				
+			  </div>
+			  <div class="links__colm1">
+				<a class="links__colm-link" href="/"></a>
+				<a class="links__colm-link" href="/"></a>
+				<a class="links__colm-link" href="/">Contact</a>
+				<a class="links__colm-link" href="/">Help & Support</a>
+				<a class="links__colm-link" href="/">Privacy Policy</a>
+				<a class="links__colm-link" href="/">Terms & Conditions</a>
+				
+			  </div>
+			  <div class="links__colm1">
+				<a class="links__colm-link" href="/"><span class="span">Product</span></a>
+				<a class="links__colm-link" href="/">Essential Landing Page</a>
+				<a class="links__colm-link" href="/">Alpha Dashboard Pro</a>
+				<a class="links__colm-link" href="/">Karnel Admin Dashboard</a>
+				<a class="links__colm-link" href="/">Gray UI Kit </a>
+			  </div>
+		</div>
+
+
+	</div>
+</footer>
+
+	</div>
+
+	<script src="./js/index.bundle.js"></script>
+	<script>
+		function navToggle() {
+			document.getElementById("headerUl").classList.toggle("_active");
+			document.getElementById("headerBackdrop").classList.toggle("_active");
+		}
+	</script>
+	
+</body>
+
+</html>

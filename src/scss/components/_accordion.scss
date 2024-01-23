@@ -1,0 +1,76 @@
+.accordion__title {
+  color: #001a49;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  transition: 0.2s;
+}
+
+.accordion__header {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  align-items: center;
+}
+
+.accordion__description {
+  color: #4f596a;
+  font-family: Muli;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 23px;
+  padding-top: 17px;
+}
+
+.accordion__icon {
+  position: relative;
+  transition: 0.3s;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    36deg,
+    rgba(255, 215, 169, 0.2) 9.11%,
+    rgba(255, 174, 112, 0.2) 71.64%
+  );
+  border-radius: 50%;
+}
+
+.accordion__item {
+  padding: 28px 40px;
+
+  position: relative;
+  transition: all 0.25s ease;
+  background-color: #fff;
+  border-radius: 21px;
+  border: 1px solid rgba(205, 16, 255, 0.2);
+
+  &:not(:last-child){
+    margin-bottom: 20px;
+  }
+}
+
+.accordion__content {
+  overflow: hidden;
+  height: 0;
+  transition: all 0.25s ease;
+}
+
+/*Rotate icon and add font weight to titles*/
+.accordion__icon svg {
+  transition: all 0.25s ease;
+}
+
+.accordion-open .accordion__icon svg {
+  transform: rotate(180deg);
+}
+
+.accordion-open .accordion__title {
+  font-weight: 600;
+}
